@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  background: linear-gradient(165deg, #fff 0%, #bebebe 100%);
+  font-family: "Gotham", sans-serif;
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  margin-top: 109px;
+  margin-left: 234px;
+}
+
+.header__logo {
+}
+
+.main {
+  padding-top: 191px;
+}
+
+.main__header {
+  font-size: 196px;
+  color: #000;
+  margin-left: 501px;
+}
+
+.main__text {
+  font-size: 81px;
+  color: #000;
+  padding-top: 44px;
+  margin-left: 580px;
+}
+
+.main__contacts-block {
+  margin-top: 375px;
+  margin-left: 143px;
+  margin-bottom: 731px;
+  max-width: 2631px;
+  border-radius: 56px;
+  background: linear-gradient(142deg, rgba(96, 183, 248, 0.8) 0%, rgba(166, 91, 155, 0.8) 100%);
+  display: flex;
+  gap: 131px;
+}
+
+.contacts-block__text {
+  font-size: 46px;
+  line-height: 150%;
+  color: #fff;
+  padding: 136px 0 151px 125px;
+}
+
+.contacts-block__links {
+  display: flex;
+  flex-direction: column;
+  gap: 58px;
+  padding-top: 147px;
+  padding-right: 224px;
+}
+
+.contacts-block__tel {
+  font-size: 48px;
+  color: #fff;
+  text-decoration: none;
+  text-wrap: nowrap;
+}
+
+.contacts-block__socials {
+  display: flex;
+  gap: 53px;
+}
